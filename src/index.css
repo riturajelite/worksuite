@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  /* SaaS Typography System */
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 30px;
+  --text-4xl: 36px;
+}
+
+/* Global resets to ensure 1.5 line height and base font size */
+body {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* App-wide Font Size Scaling System ("make it long") */
+.app-font-size-large .text-xs, .app-font-size-large .text-\[10px\], .app-font-size-large .text-\[9px\], .app-font-size-large .text-\[11px\] { font-size: 14px !important; }
+.app-font-size-large .text-sm { font-size: 16px !important; }
+.app-font-size-large .text-base { font-size: 18px !important; }
+.app-font-size-large .text-lg { font-size: 20px !important; }
+.app-font-size-large .text-xl { font-size: 22px !important; }
+.app-font-size-large .text-2xl { font-size: 26px !important; }
+.app-font-size-large .text-3xl { font-size: 32px !important; }
+
+.app-font-size-long .text-xs, .app-font-size-long .text-\[10px\], .app-font-size-long .text-\[9px\], .app-font-size-long .text-\[11px\] { font-size: 16px !important; }
+.app-font-size-long .text-sm { font-size: 18px !important; }
+.app-font-size-long .text-base { font-size: 20px !important; }
+.app-font-size-long .text-lg { font-size: 22px !important; }
+.app-font-size-long .text-xl { font-size: 24px !important; }
+.app-font-size-long .text-2xl { font-size: 28px !important; }
+.app-font-size-long .text-3xl { font-size: 36px !important; }
+
+
