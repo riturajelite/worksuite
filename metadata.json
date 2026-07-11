@@ -1,0 +1,6 @@
+{
+  "name": "Worksuite Workspace",
+  "description": "A professional SaaS-based CRM, HRM, and Project Management platform styled with an elegant, modern workspace interface.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
